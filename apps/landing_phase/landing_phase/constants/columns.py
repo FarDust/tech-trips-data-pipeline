@@ -1,0 +1,1 @@
+PARTITION_COLS = ["region"]

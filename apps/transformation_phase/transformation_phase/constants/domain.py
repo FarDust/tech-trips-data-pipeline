@@ -1,0 +1,4 @@
+from math import pi
+
+EARTH_CIRCUMFERENCE_IN_KM = 40075
+CIRCLE_RADIUS = 2 * pi
