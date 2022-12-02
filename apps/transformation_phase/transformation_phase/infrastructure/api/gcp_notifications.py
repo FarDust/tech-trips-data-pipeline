@@ -1,7 +1,7 @@
 import logging
 
 from google.cloud.pubsub_v1 import PublisherClient
-from landing_phase.domain.ports.notifications_port import NotificationsPort
+from transformation_phase.domain.ports.notifications_port import NotificationsPort
 
 logging.basicConfig(level=logging.INFO)
 

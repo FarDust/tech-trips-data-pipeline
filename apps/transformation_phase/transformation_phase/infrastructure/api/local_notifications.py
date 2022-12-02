@@ -1,6 +1,6 @@
 import logging
 
-from landing_phase.domain.ports.notifications_port import NotificationsPort
+from transformation_phase.domain.ports.notifications_port import NotificationsPort
 
 logging.basicConfig(level=logging.INFO)
 
