@@ -1,0 +1,9 @@
+{
+  "python.formatting.provider": "black",
+  "python.analysis.extraPaths": [
+    "./apps/landing_phase",
+    "./apps/transformation_phase",
+    "./apps/transformation_phase",
+    "./apps/mean_trips"
+  ]
+}

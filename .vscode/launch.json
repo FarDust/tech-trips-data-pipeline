@@ -1,0 +1,31 @@
+{
+  // Use IntelliSense para saber los atributos posibles.
+  // Mantenga el puntero para ver las descripciones de los existentes atributos.
+  // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Execute Landing Phase poetry",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/apps/landing_phase/",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Execute Transformation Phase poetry",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/apps/transformation_phase/",
+      "console": "integratedTerminal",
+      "justMyCode": false
+    },
+    {
+      "name": "Execute Metrics Phase poetry",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/apps/mean_trips/main.py",
+      "console": "integratedTerminal",
+      "justMyCode": false
+    }
+  ]
+}
